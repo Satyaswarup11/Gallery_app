@@ -2,8 +2,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import HomeScreen from './HomeScreen';
-import AboutAppScreen from './AboutAppScreen'; 
+import HomeScreen from './Screens/HomeScreen';
+import AboutAppScreen from './Screens/AboutAppScreen'; 
 
 const Drawer = createDrawerNavigator(); // Initializing drawer navigator
 
